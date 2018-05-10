@@ -22,6 +22,8 @@ function recPrint(arr) {
 
 }
 
+// NOTE: have trouble to print
+// Or if you have better ways to do this interview question, please let me know
 function myPrint(arr) {
 	return recPrint(arr);
 }
@@ -80,6 +82,11 @@ function myfunc(s, d) {
 	return myPrint(buf);	
 }
 
+
+// Output will be
+// 1. i like alibaba (with 2 spaces)
+// 2. i like ali baba (with 3 spaces)
+// we pick no.1, as it needs less spaces
 var s = "ilikealibaba";
 var d = ["i", "like", "ali", "liba", "baba", "alibaba"];
 var out = myfunc(s, d);
